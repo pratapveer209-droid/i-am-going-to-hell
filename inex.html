@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For Anshika 💗</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff1f6;
+        font-family: "Trebuchet MS", sans-serif;
+        color: #54233a;
+        overflow-x: hidden;
+        padding: 20px;
+    }
+
+    .doodle {
+        position: fixed;
+        font-size: 28px;
+        opacity: 0.65;
+        animation: float 4s ease-in-out infinite;
+        pointer-events: none;
+    }
+
+    .d1 { top: 8%; left: 8%; }
+    .d2 { top: 15%; right: 10%; animation-delay: 1s; }
+    .d3 { bottom: 12%; left: 10%; animation-delay: 2s; }
+    .d4 { bottom: 8%; right: 9%; animation-delay: .5s; }
+    .d5 { top: 45%; left: 3%; animation-delay: 1.5s; }
+    .d6 { top: 50%; right: 3%; animation-delay: 2.5s; }
+
+    @keyframes float {
+        0%, 100% {
+            transform: translateY(0) rotate(-5deg);
+        }
+
+        50% {
+            transform: translateY(-10px) rotate(5deg);
+        }
+    }
+
+    .card {
+        width: min(92%, 600px);
+        background: #fffafc;
+        border: 3px solid #ffb6cf;
+        border-radius: 30px;
+        padding: 35px 30px;
+        box-shadow: 0 15px 40px rgba(180, 80, 120, 0.15);
+        position: relative;
+        overflow: hidden;
+        animation: appear 1s ease;
+    }
+
+    @keyframes appear {
+        from {
+            opacity: 0;
+            transform: translateY(25px) scale(.96);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+        }
+    }
+
+    .card::before {
+        content: "♡";
+        position: absolute;
+        top: -30px;
+        left: -15px;
+        font-size: 90px;
+        color: #ffd4e3;
+        opacity: .55;
+        transform: rotate(-20deg);
+    }
+
+    .card::after {
+        content: "♡";
+        position: absolute;
+        bottom: -35px;
+        right: -10px;
+        font-size: 90px;
+        color: #ffd4e3;
+        opacity: .55;
+        transform: rotate(20deg);
+    }
+
+    h1 {
+        text-align: center;
+        color: #e85d8c;
+        font-size: 36px;
+        margin-bottom: 25px;
+        transform: rotate(-2deg);
+    }
+
+    .letter {
+        position: relative;
+        z-index: 2;
+        font-size: 17px;
+        line-height: 1.8;
+    }
+
+    .line {
+        margin: 18px 0;
+    }
+
+    .angry {
+        color: #e64b62;
+        font-weight: bold;
+    }
+
+    .highlight {
+        background: #ffe0eb;
+        padding: 3px 7px;
+        border-radius: 8px;
+    }
+
+    .ending {
+        text-align: center;
+        margin-top: 28px;
+        font-size: 24px;
+        font-weight: bold;
+        color: #e85d8c;
+    }
+
+    .heart {
+        display: inline-block;
+        animation: beat 1.2s infinite;
+    }
+
+    @keyframes beat {
+        0%, 100% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.25);
+        }
+    }
+
+    .scribble {
+        text-align: center;
+        margin-top: 18px;
+        font-size: 14px;
+        color: #c47b91;
+        transform: rotate(-2deg);
+    }
+
+    .tiny {
+        text-align: center;
+        margin-top: 8px;
+        font-size: 13px;
+        color: #a66a7e;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="doodle d1">🌸</div>
+<div class="doodle d2">♡</div>
+<div class="doodle d3">✿</div>
+<div class="doodle d4">🫶🏻</div>
+<div class="doodle d5">☁️</div>
+<div class="doodle d6">☆</div>
+
+<div class="card">
+
+    <h1>Anshika 😡</h1>
+
+    <div class="letter">
+
+        <p class="line">
+            I am soooo sorry 😭😭😭,
+            I talk nicely, but I don't know how to be nicer.
+        </p>
+
+        <p class="line">
+            I never talk rudely to you, tho 😡,
+            cuz I regret talking rudely to people before.
+        </p>
+
+        <p class="line">
+            And I am forever grateful for having you in my life.
+            I may be dramatic, but tbh, you are
+            <span class="highlight">
+                one of the reasons I find meaning in life
+            </span>.
+        </p>
+
+        <p class="line">
+            Sooooo very welcome 🥰,
+            cuz you should say thank you to me
+            for still being alive,
+            otherwise, who's gonna train you? 😔✋🏻
+        </p>
+
+        <div class="ending">
+            Loveeee youuuu aloottsss
+            <span class="heart">🫶🏻</span>
+        </div>
+
+        <div class="scribble">
+            — certified Anshika trainer™ 😤
+        </div>
+
+        <div class="tiny">
+            (yes, you're stuck with me)
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
